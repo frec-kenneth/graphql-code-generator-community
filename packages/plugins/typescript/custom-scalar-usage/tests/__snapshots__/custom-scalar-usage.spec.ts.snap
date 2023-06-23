@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-scalar-usage Should only output specified types 1`] = `
+"export const scalarUsage = {
+  "LocalDate": {}
+}"
+`;
+
+exports[`custom-scalar-usage Should output usage object correctly 1`] = `
+"export const scalarUsage = {
+  "DateTime": {
+    "User": [
+      "creationDate",
+      "logins",
+      "referrals"
+    ]
+  },
+  "LocalDate": {
+    "User": [
+      "signupDate"
+    ]
+  }
+}"
+`;
